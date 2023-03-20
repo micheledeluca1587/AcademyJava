@@ -1,0 +1,22 @@
+.titolo{
+    text-align: center;
+    background-color: yellow;
+    border-color: blue;
+    
+}
+
+.navbar{
+    background-color: yellow;
+}
+
+.racchette{
+    text-align: center;
+    color: brown;
+    text-decoration:underline;
+}
+
+.descrizioni{
+    color: blue;
+    font-size: large;
+}
+
