@@ -144,9 +144,26 @@
 
 // scrivere una funzione che accetti una stringa contenente solo caratteri x e y e ritorni true se il numero delle x è uguale al numero delle y
 
-function xy(string) {
+// function xy(string) {
 
-    return string.split("").filter( el => el == "x").lenght == string.split("").filter( el => el == "y").lenght
+//     return string.split("").filter( el => el == "x").lenght == string.split("").filter( el => el == "y").lenght
+// }
+
+// console.log(xy("xyy"))
+
+
+function saluta(a,b,c){
+
+    if(confirm(a)){
+
+        b()
+    }
+    else{
+
+        c()
+    }
 }
+function b(){console.log("il primo saluto sarà buongiorno")}
+function c(){console.log("il primo saluto sarà buonasera")}
 
-console.log(xy("xyy"))
+saluta("è giorno?", b,c)
