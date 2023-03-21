@@ -1,5 +1,5 @@
-// // // calcolare l'ipotenusa di un triangolo rettangolo di cateti 3 e 4. Potete usare Math
 
+// // // calcolare l'ipotenusa di un triangolo rettangolo di cateti 3 e 4. Potete usare Math
 // // function ipotenusa(a,b){
 // //     a = Math.pow(a, 2)
 // //     b = Math.pow(b,2)
@@ -12,7 +12,7 @@
 
 
 
-// // // scrivere una funzione che trasformi un nome nelle sue iniziali "Tizio Caio" => T.C.
+// // // // scrivere una funzione che trasformi un nome nelle sue iniziali "Tizio Caio" => T.C.
 
 // // function initials(name){
 
@@ -32,7 +32,7 @@
 
 // // // scrivere una funzione che , dati 3 numeri, ritorni true se questi 3 numeri possono formare un triangolo. False altrimenti
 
-// // function canBeTrinagle(a,b,c){
+// //     function canBeTrinagle(a,b,c){
 
 // //     let primo = (a > Math.abs(b-c)) && (a < (b+c))
 // //     let secondo = (b > Math.abs(a-c)) && (b <(a+c))
